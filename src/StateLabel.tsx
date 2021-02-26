@@ -1,13 +1,13 @@
-import { GitMergeIcon, GitPullRequestIcon, IssueClosedIcon, IssueOpenedIcon, QuestionIcon } from '@primer/octicons-react'
+import {GitMergeIcon, GitPullRequestIcon, IssueClosedIcon, IssueOpenedIcon, QuestionIcon} from '@primer/octicons-react'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-import { variant } from 'styled-system'
-import { COMMON, get, SystemCommonProps } from './constants'
+import {variant} from 'styled-system'
+import {COMMON, get, SystemCommonProps} from './constants'
 import StyledOcticon from './StyledOcticon'
-import sx, { SxProp } from './sx'
+import sx, {SxProp} from './sx'
 import theme from './theme'
-import { ComponentProps } from './utils/types'
+import {ComponentProps} from './utils/types'
 
 const octiconMap = {
   issueOpened: IssueOpenedIcon,
@@ -29,14 +29,17 @@ const sizeVariants = variant({
 })
 
 type StyledStateLabelBaseProps = {
-  variant?: 'small' | 'normal'; status?: keyof typeof octiconMap} & SystemCommonProps & SxProp
+  variant?: 'small' | 'normal'
+  status?: keyof typeof octiconMap
+} & SystemCommonProps &
+  SxProp
 
 const StateLabelBase = styled.span<StyledStateLabelBaseProps>`
   display: inline-flex;
   align-items: center;
   font-weight: 600;
   line-height: 16px;
-  color: ${get('colors.white')};
+  color: ${get('colors.bg.primary')};
   text-align: center;
   border-radius: ${get('radii.3')};
   ${colorVariants};
