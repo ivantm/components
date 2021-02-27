@@ -1,5 +1,29 @@
 # @primer/components
 
+## 23.2.2
+
+### Patch Changes
+
+- [`fa106ea9`](https://github.com/primer/components/commit/fa106ea9a43a8451efb648d1e3ec9df87577379c) [#1090](https://github.com/primer/components/pull/1090) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in BaseStyles
+
+* [`fa106ea9`](https://github.com/primer/components/commit/fa106ea9a43a8451efb648d1e3ec9df87577379c) [#1090](https://github.com/primer/components/pull/1090) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in BranchName
+
+- [`51d180ac`](https://github.com/primer/components/commit/51d180ace3562569910a80557904f138677b3262) [#1089](https://github.com/primer/components/pull/1089) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in Timeline
+
+* [`51d180ac`](https://github.com/primer/components/commit/51d180ace3562569910a80557904f138677b3262) [#1089](https://github.com/primer/components/pull/1089) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in TextInput
+
+- [`51d180ac`](https://github.com/primer/components/commit/51d180ace3562569910a80557904f138677b3262) [#1089](https://github.com/primer/components/pull/1089) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in Link
+
+* [`fa106ea9`](https://github.com/primer/components/commit/fa106ea9a43a8451efb648d1e3ec9df87577379c) [#1090](https://github.com/primer/components/pull/1090) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in BorderBox
+
+- [`51d180ac`](https://github.com/primer/components/commit/51d180ace3562569910a80557904f138677b3262) [#1089](https://github.com/primer/components/pull/1089) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in Tooltip
+
+* [`51d180ac`](https://github.com/primer/components/commit/51d180ace3562569910a80557904f138677b3262) [#1089](https://github.com/primer/components/pull/1089) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in UnderlineNav
+
+- [`fa106ea9`](https://github.com/primer/components/commit/fa106ea9a43a8451efb648d1e3ec9df87577379c) [#1090](https://github.com/primer/components/pull/1090) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in AvatarPair
+
+* [`fa106ea9`](https://github.com/primer/components/commit/fa106ea9a43a8451efb648d1e3ec9df87577379c) [#1090](https://github.com/primer/components/pull/1090) Thanks [@colebemis](https://github.com/colebemis)! - Use functional color variables in AvatarStack
+
 ## 23.2.1
 
 ### Patch Changes
